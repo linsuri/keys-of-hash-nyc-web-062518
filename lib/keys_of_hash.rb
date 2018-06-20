@@ -3,6 +3,10 @@ class Hash
     # code goes here
     output = []
     each do |key, value|
-      if arguments
+      if arguments == key
+        output << key
+      end
+    end
+    output
   end
 end
