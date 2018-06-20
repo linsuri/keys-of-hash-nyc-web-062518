@@ -3,5 +3,6 @@ class Hash
     # code goes here
     output = []
     each do |key, value|
+      if arguments
   end
 end
