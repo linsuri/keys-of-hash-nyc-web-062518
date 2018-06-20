@@ -5,7 +5,7 @@ class Hash
     
     each do |key, value|
       arguments.each do |arg|  
-        if arguments == key
+        if arg == key
           output << key
         end
       end
