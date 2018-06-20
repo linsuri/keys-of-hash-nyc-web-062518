@@ -3,7 +3,7 @@ class Hash
     # code goes here
     output = []
     
-    map do |key, value|
+    each do |key, value|
       arguments.each do |arg|  
         if arg == key
           output << arg
